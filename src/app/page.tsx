@@ -66,7 +66,7 @@ export default function LandingPage() {
           handle: "@johndoe",
           testimonial: "Best burger in town, truly amazing flavor!",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-burger-table_23-2148678799.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/front-view-burger-table_23-2148678799.jpg?_wi=1",
           imageAlt: "delicious gourmet beef burger restaurant",
         },
         {
@@ -82,7 +82,7 @@ export default function LandingPage() {
           handle: "@mikeb",
           testimonial: "The BeefyKing never disappoints. Simply quality.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/ingredients-pasta_23-2147694275.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/ingredients-pasta_23-2147694275.jpg?_wi=1",
           imageAlt: "delicious gourmet beef burger restaurant",
         },
         {
@@ -90,7 +90,7 @@ export default function LandingPage() {
           handle: "@emwhite",
           testimonial: "Amazing texture and taste. Highly recommended.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-delivery-man-climbing-stairs_23-2148767100.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-delivery-man-climbing-stairs_23-2148767100.jpg?_wi=1",
           imageAlt: "delicious gourmet beef burger restaurant",
         },
         {
@@ -98,7 +98,7 @@ export default function LandingPage() {
           handle: "@dclark",
           testimonial: "Great service and even better burgers.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/pumpkin-pie-making-arrangement_23-2149055383.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/pumpkin-pie-making-arrangement_23-2149055383.jpg?_wi=1",
           imageAlt: "delicious gourmet beef burger restaurant",
         },
       ]}
@@ -112,7 +112,7 @@ export default function LandingPage() {
           href: "#contact",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/front-view-burger-table_23-2148678799.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/front-view-burger-table_23-2148678799.jpg?_wi=2"
       avatars={[
         {
           src: "http://img.b2bpic.net/free-photo/beautiful-african-american-woman-cafe_273609-5054.jpg",
@@ -160,21 +160,21 @@ export default function LandingPage() {
           title: "Farm to Table",
           subtitle: "Local Sourced",
           description: "We partner with local farms to ensure our ingredients are fresh every single day.",
-          imageSrc: "http://img.b2bpic.net/free-photo/ingredients-pasta_23-2147694275.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/ingredients-pasta_23-2147694275.jpg?_wi=2",
         },
         {
           tag: "Fast",
           title: "Speedy Delivery",
           subtitle: "Hot to Door",
           description: "Our delivery network ensures your burger arrives piping hot within 30 minutes.",
-          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-delivery-man-climbing-stairs_23-2148767100.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-delivery-man-climbing-stairs_23-2148767100.jpg?_wi=2",
         },
         {
           tag: "Craft",
           title: "Artisan Methods",
           subtitle: "Chef Prepared",
           description: "Every burger is crafted with artisan passion to maintain consistency and flavor.",
-          imageSrc: "http://img.b2bpic.net/free-photo/pumpkin-pie-making-arrangement_23-2149055383.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/pumpkin-pie-making-arrangement_23-2149055383.jpg?_wi=2",
         },
       ]}
       title="Why Choose BeefyKing?"
