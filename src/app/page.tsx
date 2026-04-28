@@ -213,6 +213,7 @@ export default function LandingPage() {
       textarea={{ name: "message", placeholder: "Tell us about your order or inquiry...", rows: 4 }}
       buttonText="Send Inquiry"
       imageSrc="http://img.b2bpic.net/free-photo/front-view-burger-table_23-2148678799.jpg?_wi=2"
+      useInvertedBackground={false}
     />
   </div>
 
