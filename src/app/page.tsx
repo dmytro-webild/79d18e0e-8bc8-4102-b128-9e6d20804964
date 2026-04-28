@@ -2,16 +2,17 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactSplit from '@/components/sections/contact/ContactSplit';
+import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import FeatureCardNineteen from '@/components/sections/feature/FeatureCardNineteen';
-import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
+import FooterCard from '@/components/sections/footer/FooterCard';
 import HeroOverlayTestimonial from '@/components/sections/hero/HeroOverlayTestimonial';
 import MetricCardFourteen from '@/components/sections/metrics/MetricCardFourteen';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
 import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
+import { Instagram, Twitter, Facebook } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -201,39 +202,27 @@ export default function LandingPage() {
   </div>
 
   <div id="contact" data-section="contact">
-      <ContactSplit
-      tag="Contact Us"
+      <ContactSplitForm
       title="Ready for a Kingly Feast?"
-      description="Visit our locations or order online today to get your burger fix instantly."
-      background={{ variant: "sparkles-gradient" }}
-      useInvertedBackground={false}
+      description="Send us your details and we'll get back to you immediately regarding catering, orders, or feedback."
+      inputs={[
+        { name: "name", type: "text", placeholder: "Full Name", required: true },
+        { name: "email", type: "email", placeholder: "Email Address", required: true },
+        { name: "phone", type: "tel", placeholder: "Phone Number", required: true }
+      ]}
+      textarea={{ name: "message", placeholder: "Tell us about your order or inquiry...", rows: 4 }}
+      buttonText="Send Inquiry"
       imageSrc="http://img.b2bpic.net/free-photo/front-view-burger-table_23-2148678799.jpg?_wi=2"
-      mediaPosition="right"
     />
   </div>
 
   <div id="footer" data-section="footer">
-      <FooterBaseReveal
+      <FooterCard
       logoText="BeefyKing"
-      columns={[
-        {
-          title: "Menu",          items: [
-            { label: "Burgers", href: "#products" },
-            { label: "Specials", href: "#products" },
-          ],
-        },
-        {
-          title: "Company",          items: [
-            { label: "About Us", href: "#about" },
-            { label: "Careers", href: "#" },
-          ],
-        },
-        {
-          title: "Support",          items: [
-            { label: "FAQ", href: "#faq" },
-            { label: "Contact", href: "#contact" },
-          ],
-        },
+      socialLinks={[
+        { icon: Instagram, href: "#", ariaLabel: "Instagram" },
+        { icon: Twitter, href: "#", ariaLabel: "Twitter" },
+        { icon: Facebook, href: "#", ariaLabel: "Facebook" }
       ]}
       copyrightText="© 2025 BeefyKing. All rights reserved."
     />
